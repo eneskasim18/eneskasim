@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export function Footer() {
     return (
         <footer className="bg-background border-t border-border mt-auto">
@@ -7,8 +9,8 @@ export function Footer() {
                         © {new Date().getFullYear()} Enes Kasım. All rights reserved.
                     </div>
                     <div className="flex space-x-6 text-sm text-muted-foreground">
-                        <a href="/privacy-policy" className="hover:text-foreground transition-colors">Privacy Policy</a>
-                        <a href="/support" className="hover:text-foreground transition-colors">Support</a>
+                        <Link href="/privacy-policy" className="hover:text-foreground transition-colors">Privacy Policy</Link>
+                        <Link href="/support" className="hover:text-foreground transition-colors">Support</Link>
                     </div>
                 </div>
             </div>

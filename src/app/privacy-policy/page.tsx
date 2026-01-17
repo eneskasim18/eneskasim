@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function PrivacyPolicyPage() {
     return (
         <div className="min-h-screen pt-24 pb-16 px-4 sm:px-6 lg:px-8 bg-background">
@@ -45,12 +47,12 @@ export default function PrivacyPolicyPage() {
                     Eğer hesabınızı ve ilgili verilerinizi silmek istiyorsanız, aşağıdaki butona tıklayarak talepte bulunabilirsiniz.
                 </p>
                 <div className="mt-4 mb-8">
-                    <a
+                    <Link
                         href="/privacy-policy/delete-account"
                         className="inline-flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-destructive hover:bg-destructive/90 transition-colors"
                     >
                         Üyeliğimi Sil
-                    </a>
+                    </Link>
                 </div>
             </div>
         </div>

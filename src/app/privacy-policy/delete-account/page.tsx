@@ -39,7 +39,7 @@ export default function DeleteAccountPage() {
               4. Copy the URL from the 'src' attribute
             */}
                     <iframe
-                        src="https://docs.google.com/forms/d/e/1FAIpQLSfD_placeholder/viewform?embedded=true"
+                        src="https://docs.google.com/forms/d/e/1FAIpQLSc5KTwUGO0YkSwONeEN8vMZZsmNQmtub7znpdUABLzGT9jH8Q/viewform?embedded=true"
                         width="100%"
                         height="640"
                         frameBorder="0"

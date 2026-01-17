@@ -11,19 +11,19 @@ export default function DeleteAccountPage() {
                         className="inline-flex items-center text-muted-foreground hover:text-foreground transition-colors"
                     >
                         <ArrowLeft className="w-4 h-4 mr-2" />
-                        Geri Dön
+                        Back to Privacy Policy
                     </Link>
                 </div>
 
                 <div className="prose dark:prose-invert max-w-none mb-8">
-                    <h1>Hesap Silme Talebi</h1>
+                    <h1>Account Deletion Request</h1>
                     <p>
-                        Hesabınızın silinmesi için lütfen aşağıdaki formu doldurun. Talebiniz alındıktan sonra,
-                        hesabınız ve ilişkili tüm veriler en kısa sürede kalıcı olarak silinecektir.
+                        To permanently delete your account, please complete the form below. Once your request is received,
+                        your account and all associated data will be permanently deleted as soon as possible.
                     </p>
                     <div className="p-4 bg-muted/50 rounded-lg border border-border">
                         <p className="text-sm m-0">
-                            <strong>Not:</strong> Güvenlik nedeniyle, hesap silme işlemi için kayıtlı e-posta adresinizi doğrulamanız gerekmektedir.
+                            <strong>Note:</strong> For security purposes, you must verify the email address associated with your account to proceed with the deletion.
                         </p>
                     </div>
                 </div>
@@ -47,7 +47,7 @@ export default function DeleteAccountPage() {
                         marginWidth={0}
                         className="w-full min-h-[600px]"
                     >
-                        Yükleniyor...
+                        Loading...
                     </iframe>
                 </div>
             </div>

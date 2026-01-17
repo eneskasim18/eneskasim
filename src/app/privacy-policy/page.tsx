@@ -36,8 +36,22 @@ export default function PrivacyPolicyPage() {
 
                 <h2>Contact Us</h2>
                 <p>
-                    If you have any questions or suggestions about my Privacy Policy, do not hesitate to contact me at contact@eneskasim.com.
+                    If you have any questions or suggestions about my Privacy Policy, do not hesitate to contact me at eneskasim_93@hotmail.com.
                 </p>
+
+                <h2>Hesap Silme</h2>
+                <p>
+                    Kullanıcılarımızın verileri üzerinde tam kontrol sahibi olmalarını önemsiyoruz.
+                    Eğer hesabınızı ve ilgili verilerinizi silmek istiyorsanız, aşağıdaki butona tıklayarak talepte bulunabilirsiniz.
+                </p>
+                <div className="mt-4 mb-8">
+                    <a
+                        href="/privacy-policy/delete-account"
+                        className="inline-flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-destructive hover:bg-destructive/90 transition-colors"
+                    >
+                        Üyeliğimi Sil
+                    </a>
+                </div>
             </div>
         </div>
     );
